@@ -1,44 +1,64 @@
 {
-  "name": "react-unit-test",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^10.0.2",
-    "babel-preset-expo": "^5.2.0",
-    "babel-preset-flow": "^6.23.0",
-    "eslint": "^6.0.1",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jest": "^22.7.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
-    "prettier": "^1.18.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+   "name": "react-unit-test",
+   "version": "0.1.0",
+   "private": true,
+   "dependencies": {
+      "@material-ui/core": "^4.3.3",
+      "@material-ui/icons": "^4.2.1",
+      "@material-ui/styles": "^4.3.3",
+      "@vx/axis": "^0.0.190",
+      "@vx/scale": "^0.0.190",
+      "@vx/shape": "^0.0.190",
+      "axios": "^0.19.0",
+      "babel-cli": "^6.26.0",
+      "babel-preset-expo": "^5.2.0",
+      "babel-preset-flow": "^6.23.0",
+      "bootstrap": "^4.3.1",
+      "d3": "^5.9.7",
+      "d3-array": "^2.3.1",
+      "eslint-config-airbnb": "^17.1.1",
+      "eslint-config-prettier": "^6.0.0",
+      "eslint-plugin-import": "^2.18.0",
+      "eslint-plugin-jest": "^22.7.2",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-prettier": "^3.1.0",
+      "eslint-plugin-react": "^7.14.2",
+      "firebase": "^6.3.3",
+      "formik": "^1.5.8",
+      "lodash": "^4.17.15",
+      "moment": "^2.24.0",
+      "prettier": "^1.18.2",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-avatar": "^3.6.0",
+      "react-datepicker": "^2.8.0",
+      "react-dom": "^16.8.6",
+      "react-redux": "^7.1.1",
+      "react-router-dom": "^5.0.1",
+      "react-scripts": "3.0.1",
+      "react-select": "^3.0.4",
+      "redux": "^4.0.4",
+      "styled-components": "^4.3.2"
+   },
+   "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+   },
+   "eslintConfig": {
+      "extends": "react-app"
+   },
+   "browserslist": {
+      "production": [
+         ">0.2%",
+         "not dead",
+         "not op_mini all"
+      ],
+      "development": [
+         "last 1 chrome version",
+         "last 1 firefox version",
+         "last 1 safari version"
+      ]
+   }
 }
